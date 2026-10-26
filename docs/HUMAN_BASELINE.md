@@ -2,7 +2,7 @@
 
 ## Study completion and reporting
 
-Six graduate students completed the human-baseline experiment.
+Six graduate students completed the human-baseline experiment. All six participants consented to participate and to the use of their responses for this research.
 
 The study design below is transcribed from the accompanying manuscript and Supplementary Section S6. Manuscript table values remain the authoritative reported results and have not been recalculated for this documentation update.
 

@@ -33,6 +33,10 @@ The prediction file uses `id`, `round`, `model`, `prediction`, and, where presen
 
 The release was extracted from the archived `a_filtered1.json`, `a_filtered2.json` and `a_filtered3.json` files. Original file sizes and SHA-256 hashes are recorded in `data_manifest.json`. The earlier 1,629-item unfiltered dataset is outside this release. Extraction retains question text, options, gold labels, classification fields and compact predictions. It omits full model reasoning, intermediate processing fields, internal machine paths, provider credentials and human identities.
 
+## Annotation agreement
+
+Cohen's kappa for dimensional labels on a randomly sampled overlapping subset was 0.78, as reported by the authors. This concerns dataset dimensional annotation, rather than the six-person human-baseline accuracy.
+
 ## Known limitations and pending information
 
 - This archive contains 24 model identifiers; the manuscript selection contains 18. Coverage varies by model and round. Missing records must not be silently treated as successful predictions.
