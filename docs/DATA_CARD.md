@@ -38,9 +38,9 @@ The release was extracted from the archived `a_filtered1.json`, `a_filtered2.jso
 - This archive contains 24 model identifiers; the manuscript selection contains 18. Coverage varies by model and round. Missing records must not be silently treated as successful predictions.
 - The released question text is Chinese. No translated dataset or independent translation validation is included.
 - No predefined training/development/test split is provided. The three rounds are repeated evaluation presentations.
-- Complete annotations for the six-person human baseline were not established from the available archives and are excluded.
-- Item-level question sources, original acquisition dates, permissions and final licensing are pending author completion.
+- The authors confirm that six graduate students completed the human-baseline experiment. Its methods and reported results are documented in `HUMAN_BASELINE.md`; the public release does not contain the complete participant-level raw responses.
+- Questions were collected from Internet sources, as reported by the authors. Original material rights remain with the respective rights holders; see `LICENSE.md`.
 - Independent gold-label adjudication, contamination assessment and a fully specified historical model-generation environment are not provided.
-- Some manuscript summary statistics were editorially synchronized during preparation and require reconciliation with recomputed results before a final reproducibility claim.
+- Manuscript tables are preserved as the authoritative reported results. Archived evaluator outputs are provided separately and do not establish exact reproduction of those tables.
 
 Use this release to inspect and recompute the archived evaluation. Its scores alone do not establish validity for educational assessment, human ability measurement or other consequential use.

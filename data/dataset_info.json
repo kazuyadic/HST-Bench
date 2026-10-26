@@ -50,5 +50,6 @@
     }
   },
   "languages": "Question text as stored in the archived Chinese evaluation files; no English dataset is claimed.",
-  "license": "No blanket third-party question license is granted; see LICENSE.md."
+  "license": "No blanket third-party question license is granted; see LICENSE.md.",
+  "source": "Internet-collected questions, as reported by the authors; rights in original material remain with respective rights holders."
 }

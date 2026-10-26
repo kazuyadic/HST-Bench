@@ -1,0 +1,9 @@
+{
+  "source": "main.tex",
+  "source_sha256": "6ac059911706491a1413b93f2f58d9c0034628bd4cc9f39f7fd661a0a6fe506d",
+  "table_labels": [
+    "tab:strict_model_performance",
+    "tab:simplified_model_performance"
+  ],
+  "policy": "Manuscript tables are the authoritative reported results. Their values were not recalculated or changed in this documentation update."
+}

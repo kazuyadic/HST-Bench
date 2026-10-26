@@ -1,15 +1,5 @@
-# Rights and licensing status
+# Source and rights notice
 
-This repository is publicly available for inspection and reproducibility of the accompanying research. Public availability does not itself grant a blanket license to redistribute or reuse all contents.
+The benchmark questions were collected from Internet sources and organized for research evaluation, as reported by the authors. Rights in underlying source materials remain with their respective rights holders. This repository does not claim ownership of third-party material or grant a blanket license to it. Public availability does not itself establish unrestricted reuse rights.
 
-The authors have not yet selected a formal license for their contributed dataset annotations and evaluation code. No additional copyright license is granted by this notice. Applicable statutory permissions and GitHub's platform terms remain unaffected.
-
-Underlying questions may incorporate material governed by independent third-party rights. This release does not claim ownership of that material or grant third-party permissions. Item-level source attribution, permission records, and any applicable source-specific terms remain to be completed by the authors.
-
-Pending author information:
-
-- Final license for author-contributed code.
-- Final license for author-contributed data and annotations.
-- Question-source attribution and redistribution permission records.
-
-For rights or attribution questions, contact the corresponding author, Tianwei Yan, at augusyan@cqjtu.edu.cn.
+No standard open-source or open-data license is designated for this release. For source attribution, rights questions or correction/removal requests, contact the corresponding author, Tianwei Yan, at augusyan@cqjtu.edu.cn.

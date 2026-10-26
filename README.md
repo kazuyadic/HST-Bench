@@ -27,6 +27,9 @@ Scores in the JSON output are fractions between 0 and 1. Multiply by 100 to obta
 | `docs/annotation_audit.json` | Cross-round consistency and correctness-flag audit |
 | `docs/DATA_CARD.md` | Dataset schema, scope and known limitations |
 | `docs/EVALUATION.md` | Metric definitions and historical scoring differences |
+| `docs/manuscript_tables.tex` | Verbatim snapshots of the two main manuscript tables |
+| `docs/HUMAN_BASELINE.md` | Six-person human experiment methods and reported results |
+| `human/` | Anonymous participant registry and an empty response-record template |
 
 The release preserves the Chinese question text found in the archives. It does not provide an English translation. Three rounds are repeated presentations of the same questions, not 4,452 independent questions or separate training/test splits.
 
@@ -56,14 +59,14 @@ The archived inference instruction was:
 
 The question and lettered options were appended to this instruction. This release does not reconstruct historical provider settings or guarantee deterministic reproduction of model generations.
 
-## Reproducibility status
+## Manuscript results and archived evaluation
 
-This is an archival data and evaluator release. It is **not a certification that every manuscript table has been reproduced**. The default strict micro score follows the archived three-round strict rule on the filtered question files. Historical averaged spreadsheets used different `a_daluan` inputs and a different aggregation; scores computed here from filtered data should not be presented as reproducing those spreadsheets. See [evaluation details](docs/EVALUATION.md).
+The tables in the manuscript are the authoritative reported results. Their numerical values are preserved in `docs/manuscript_tables.tex`; the evaluator does not update or overwrite them. Files under `results/` are separate outputs for the released archived inputs and scoring settings, and are not substitutes for the manuscript tables. The default strict micro score follows the archived three-round strict rule on the filtered question files. Historical averaged spreadsheets used different `a_daluan` inputs and a different aggregation; scores computed here from filtered data should not be presented as reproducing those spreadsheets. See [evaluation details](docs/EVALUATION.md).
 
-Human participant annotations, identifying information, full model reasoning, provider credentials and local configuration are excluded. Six-person human-baseline results cannot be recomputed from this package. Item-level source provenance, redistribution permissions and the final dataset/code licenses remain to be completed by the authors; see [LICENSE.md](LICENSE.md).
+The authors confirm that six graduate students completed the human-baseline experiment. The six-person study design, reported results, participant registry and response-record template are documented in [HUMAN_BASELINE.md](docs/HUMAN_BASELINE.md). Complete participant-level raw responses are not included in this release, so the reported human baseline cannot be independently recomputed from this package. Identifying information, full model reasoning, provider credentials and local configuration are excluded. Questions were collected from Internet sources; see the concise [source and rights notice](LICENSE.md).
 
 ## Citation and contact
 
 Bibliographic metadata are in `CITATION.cff`. No DOI or accepted publication is claimed. Corresponding author: Tianwei Yan, augusyan@cqjtu.edu.cn.
 
-中文说明：本仓库提供论文相关的 1,484 道题、三轮选项排列、归档模型预测及离线评估代码。运行不需要模型接口或密钥。模型缺失记录、严格三轮评分和平均评分的口径见文档；当前材料不包含可重算六人基线的完整人工标注。题目来源授权、正式许可证和论文表格复核仍待作者补全。
+中文说明：本仓库提供论文相关的 1,484 道题、三轮选项排列、归档模型预测及离线评估代码。论文表格作为正式报告结果，数值保持不变；`results/` 仅为归档输入的脚本输出。作者已确认六位研究生完成了人工实验，本仓库补充了六人实验方法、匿名编号和逐题记录模板；当前发布包未包含完整逐题作答，不能据此独立复算人工基线。题目来自互联网收集，原始材料权利归相应权利人。
