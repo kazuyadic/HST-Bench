@@ -63,10 +63,10 @@ The question and lettered options were appended to this instruction. This releas
 
 The tables in the manuscript are the authoritative reported results. Their numerical values are preserved in `docs/manuscript_tables.tex`; the evaluator does not update or overwrite them. Files under `results/` are separate outputs for the released archived inputs and scoring settings, and are not substitutes for the manuscript tables. The default strict micro score follows the archived three-round strict rule on the filtered question files. Historical averaged spreadsheets used different `a_daluan` inputs and a different aggregation; scores computed here from filtered data should not be presented as reproducing those spreadsheets. See [evaluation details](docs/EVALUATION.md).
 
-The authors confirm that six graduate students completed the human-baseline experiment. The six-person study design, reported results, participant registry and response-record template are documented in [HUMAN_BASELINE.md](docs/HUMAN_BASELINE.md). Complete participant-level raw responses are not included in this release, so the reported human baseline cannot be independently recomputed from this package. Identifying information, full model reasoning, provider credentials and local configuration are excluded. Questions were collected from Internet sources; see the concise [source and rights notice](LICENSE.md).
+The authors confirm that six graduate students completed the human-baseline experiment. The six-person study design, reported results, participant registry and response-record template are documented in [HUMAN_BASELINE.md](docs/HUMAN_BASELINE.md). Identifying information, full model reasoning, provider credentials and local configuration are excluded. Questions were collected from Internet sources; see the concise [source and rights notice](LICENSE.md).
 
 ## Citation and contact
 
 Bibliographic metadata are in `CITATION.cff`. No DOI or accepted publication is claimed. Corresponding author: Tianwei Yan, augusyan@cqjtu.edu.cn.
 
-中文说明：本仓库提供论文相关的 1,484 道题、三轮选项排列、归档模型预测及离线评估代码。论文表格作为正式报告结果，数值保持不变；`results/` 仅为归档输入的脚本输出。作者已确认六位研究生完成了人工实验，本仓库补充了六人实验方法、匿名编号和逐题记录模板；当前发布包未包含完整逐题作答，不能据此独立复算人工基线。题目来自互联网收集，原始材料权利归相应权利人。
+中文说明：本仓库提供论文相关的 1,484 道题、三轮选项排列、归档模型预测及离线评估代码。论文表格作为正式报告结果，数值保持不变；`results/` 仅为归档输入的脚本输出。作者已确认六位研究生完成了人工实验，本仓库补充了六人实验方法、匿名编号和逐题记录模板。题目来自互联网收集，原始材料权利归相应权利人。

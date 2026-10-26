@@ -1,7 +1,7 @@
-participant_id,group,study_completion,raw_response_release_status
-A1,A,author_confirmed,not_included
-A2,A,author_confirmed,not_included
-A3,A,author_confirmed,not_included
-A4,B,author_confirmed,not_included
-A5,B,author_confirmed,not_included
-A6,B,author_confirmed,not_included
+participant_id,group
+A1,A
+A2,A
+A3,A
+A4,B
+A5,B
+A6,B
