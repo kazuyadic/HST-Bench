@@ -1,0 +1,2415 @@
+{
+  "settings": {
+    "rounds": [
+      1,
+      2,
+      3
+    ],
+    "missing": "exclude",
+    "score_source": "prediction",
+    "accuracy_scale": "fractions in [0, 1], not percentages"
+  },
+  "audit": {
+    "question_ids": 1484,
+    "prediction_records": 102467,
+    "ignored_prediction_records": 0,
+    "recorded_correctness_mismatches": 0,
+    "requested_models_without_predictions": []
+  },
+  "models": {
+    "gpt-5-2025-08-07": {
+      "recorded_responses": 4452,
+      "complete_three_round_questions": 1484,
+      "invalid_or_unparsed_responses": 55,
+      "strict": {
+        "n": 1484,
+        "micro_accuracy": 0.7419137466307277,
+        "macro_subdimension_accuracy": 0.7491774870065583,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.7109144542772862,
+            "macro_subdimension_accuracy": 0.7112339482587434
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.8286516853932584,
+            "macro_subdimension_accuracy": 0.8289463590102031
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.72,
+            "macro_subdimension_accuracy": 0.7200000000000001
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.7176470588235294
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.6294117647058823
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.7401129943502824
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.7577639751552795
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.8235294117647058
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.8283582089552238
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.8349514563106796
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.7266666666666667
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.72
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.7133333333333334
+          }
+        }
+      },
+      "mean_attempt": {
+        "n": 1484,
+        "micro_accuracy": 0.8301886792452831,
+        "macro_subdimension_accuracy": 0.834980927656986,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.8117010816125861,
+            "macro_subdimension_accuracy": 0.8117720681984413
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.8923220973782772,
+            "macro_subdimension_accuracy": 0.8920181123698091
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.8088888888888889,
+            "macro_subdimension_accuracy": 0.8088888888888889
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.8313725490196079
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.7568627450980392
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.8286252354048964
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.8302277432712215
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.8823529411764706
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.900497512437811
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.8932038834951457
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.8155555555555555
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.7911111111111111
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.82
+          }
+        }
+      }
+    },
+    "qwen3-max": {
+      "recorded_responses": 4452,
+      "complete_three_round_questions": 1484,
+      "invalid_or_unparsed_responses": 113,
+      "strict": {
+        "n": 1484,
+        "micro_accuracy": 0.7277628032345014,
+        "macro_subdimension_accuracy": 0.7333345325122418,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.7212389380530974,
+            "macro_subdimension_accuracy": 0.7206819500091857
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.8061797752808989,
+            "macro_subdimension_accuracy": 0.8079836194730029
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.6755555555555556,
+            "macro_subdimension_accuracy": 0.6755555555555555
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.7529411764705882
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.7058823529411765
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.7344632768361582
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.6894409937888198
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.8151260504201681
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.7835820895522388
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.8252427184466019
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.6866666666666666
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.6333333333333333
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.7066666666666667
+          }
+        }
+      },
+      "mean_attempt": {
+        "n": 1484,
+        "micro_accuracy": 0.8200808625336927,
+        "macro_subdimension_accuracy": 0.8249979205039215,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.8161258603736481,
+            "macro_subdimension_accuracy": 0.8160294822915656
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.8857677902621722,
+            "macro_subdimension_accuracy": 0.8878796845502438
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.774074074074074,
+            "macro_subdimension_accuracy": 0.774074074074074
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.8333333333333333
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.8137254901960785
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.8116760828625235
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.805383022774327
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.8935574229691876
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.8606965174129353
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.9093851132686085
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.7866666666666666
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.7422222222222222
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.7933333333333333
+          }
+        }
+      }
+    },
+    "qwen3-235b-a22b-thinking-2507": {
+      "recorded_responses": 4271,
+      "complete_three_round_questions": 1309,
+      "invalid_or_unparsed_responses": 144,
+      "strict": {
+        "n": 1309,
+        "micro_accuracy": 0.7662337662337663,
+        "macro_subdimension_accuracy": 0.7749847659030243,
+        "dimensions": {
+          "A": {
+            "n": 616,
+            "micro_accuracy": 0.7386363636363636,
+            "macro_subdimension_accuracy": 0.7389025824990363
+          },
+          "B": {
+            "n": 313,
+            "micro_accuracy": 0.865814696485623,
+            "macro_subdimension_accuracy": 0.869596816697789
+          },
+          "C": {
+            "n": 380,
+            "micro_accuracy": 0.7289473684210527,
+            "macro_subdimension_accuracy": 0.7284822929802438
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 155,
+            "accuracy": 0.7419354838709677
+          },
+          "A2": {
+            "n": 156,
+            "accuracy": 0.6794871794871795
+          },
+          "A3": {
+            "n": 154,
+            "accuracy": 0.7792207792207793
+          },
+          "A4": {
+            "n": 151,
+            "accuracy": 0.7549668874172185
+          },
+          "B1": {
+            "n": 103,
+            "accuracy": 0.8543689320388349
+          },
+          "B2": {
+            "n": 118,
+            "accuracy": 0.8305084745762712
+          },
+          "B3": {
+            "n": 92,
+            "accuracy": 0.9239130434782609
+          },
+          "C1": {
+            "n": 128,
+            "accuracy": 0.734375
+          },
+          "C2": {
+            "n": 122,
+            "accuracy": 0.7049180327868853
+          },
+          "C3": {
+            "n": 130,
+            "accuracy": 0.7461538461538462
+          }
+        }
+      },
+      "mean_attempt": {
+        "n": 1484,
+        "micro_accuracy": 0.8151392632524709,
+        "macro_subdimension_accuracy": 0.8204640463775444,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.8089970501474927,
+            "macro_subdimension_accuracy": 0.8092137407652817
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.8843632958801497,
+            "macro_subdimension_accuracy": 0.8862988706084761
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.7696296296296296,
+            "macro_subdimension_accuracy": 0.7696296296296296
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.8392156862745097
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.7852941176470588
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.7966101694915254
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.8157349896480331
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.8711484593837535
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.8718905472636815
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.9158576051779935
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.7822222222222222
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.7288888888888888
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.7977777777777778
+          }
+        }
+      }
+    },
+    "qwen3-235b-a22b-instruct-2507": {
+      "recorded_responses": 1484,
+      "complete_three_round_questions": 0,
+      "invalid_or_unparsed_responses": 32,
+      "strict": {
+        "n": 0,
+        "micro_accuracy": null,
+        "macro_subdimension_accuracy": null,
+        "dimensions": {
+          "A": {
+            "n": 0,
+            "micro_accuracy": null,
+            "macro_subdimension_accuracy": null
+          },
+          "B": {
+            "n": 0,
+            "micro_accuracy": null,
+            "macro_subdimension_accuracy": null
+          },
+          "C": {
+            "n": 0,
+            "micro_accuracy": null,
+            "macro_subdimension_accuracy": null
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 0,
+            "accuracy": null
+          },
+          "A2": {
+            "n": 0,
+            "accuracy": null
+          },
+          "A3": {
+            "n": 0,
+            "accuracy": null
+          },
+          "A4": {
+            "n": 0,
+            "accuracy": null
+          },
+          "B1": {
+            "n": 0,
+            "accuracy": null
+          },
+          "B2": {
+            "n": 0,
+            "accuracy": null
+          },
+          "B3": {
+            "n": 0,
+            "accuracy": null
+          },
+          "C1": {
+            "n": 0,
+            "accuracy": null
+          },
+          "C2": {
+            "n": 0,
+            "accuracy": null
+          },
+          "C3": {
+            "n": 0,
+            "accuracy": null
+          }
+        }
+      },
+      "mean_attempt": {
+        "n": 1484,
+        "micro_accuracy": 0.805256064690027,
+        "macro_subdimension_accuracy": 0.8074912558105722,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.8156342182890856,
+            "macro_subdimension_accuracy": 0.8161328127418985
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.8455056179775281,
+            "macro_subdimension_accuracy": 0.8456826579349318
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.7577777777777778,
+            "macro_subdimension_accuracy": 0.7577777777777778
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.8176470588235294
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.8117647058823529
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.7966101694915254
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.8385093167701864
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.8319327731092437
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.8507462686567164
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.8543689320388349
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.74
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.7333333333333333
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.8
+          }
+        }
+      }
+    },
+    "gpt-5-mini": {
+      "recorded_responses": 4452,
+      "complete_three_round_questions": 1484,
+      "invalid_or_unparsed_responses": 124,
+      "strict": {
+        "n": 1484,
+        "micro_accuracy": 0.6745283018867925,
+        "macro_subdimension_accuracy": 0.6809696464510948,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.6533923303834809,
+            "macro_subdimension_accuracy": 0.6532535416524753
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.7415730337078652,
+            "macro_subdimension_accuracy": 0.7455607659670157
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.6533333333333333,
+            "macro_subdimension_accuracy": 0.6533333333333333
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.7058823529411765
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.5470588235294118
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.6892655367231638
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.6708074534161491
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.6554621848739496
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.746268656716418
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.8349514563106796
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.7
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.5933333333333334
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.6666666666666666
+          }
+        }
+      },
+      "mean_attempt": {
+        "n": 1484,
+        "micro_accuracy": 0.7713387241689129,
+        "macro_subdimension_accuracy": 0.7769635998320314,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.7536873156342183,
+            "macro_subdimension_accuracy": 0.7539291029602704
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.8342696629213483,
+            "macro_subdimension_accuracy": 0.8364917140115962
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.7481481481481482,
+            "macro_subdimension_accuracy": 0.7481481481481481
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.8019607843137255
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.692156862745098
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.751412429378531
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.7701863354037267
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.7787114845938375
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.8407960199004976
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.8899676375404532
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.7711111111111112
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.7133333333333334
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.76
+          }
+        }
+      }
+    },
+    "deepseek-r1": {
+      "recorded_responses": 4452,
+      "complete_three_round_questions": 1484,
+      "invalid_or_unparsed_responses": 0,
+      "strict": {
+        "n": 1484,
+        "micro_accuracy": 0.6516172506738545,
+        "macro_subdimension_accuracy": 0.6559124433118115,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.6371681415929203,
+            "macro_subdimension_accuracy": 0.637546263899812
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.6966292134831461,
+            "macro_subdimension_accuracy": 0.6985353480618447
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.6377777777777778,
+            "macro_subdimension_accuracy": 0.6377777777777778
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.6
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.5647058823529412
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.6836158192090396
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.7018633540372671
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.7226890756302521
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.664179104477612
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.7087378640776699
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.6533333333333333
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.64
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.62
+          }
+        }
+      },
+      "mean_attempt": {
+        "n": 1484,
+        "micro_accuracy": 0.7756064690026954,
+        "macro_subdimension_accuracy": 0.7793382651206622,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.7659783677482793,
+            "macro_subdimension_accuracy": 0.7661946355550326
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.8211610486891385,
+            "macro_subdimension_accuracy": 0.8221272955880897
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.754074074074074,
+            "macro_subdimension_accuracy": 0.7540740740740741
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.7607843137254903
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.7313725490196078
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.7796610169491526
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.7929606625258799
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.8319327731092437
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.8059701492537313
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.8284789644012944
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.7377777777777778
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.7622222222222222
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.7622222222222222
+          }
+        }
+      }
+    },
+    "qwen3-30b-a3b-thinking-2507": {
+      "recorded_responses": 4452,
+      "complete_three_round_questions": 1484,
+      "invalid_or_unparsed_responses": 35,
+      "strict": {
+        "n": 1484,
+        "micro_accuracy": 0.6529649595687331,
+        "macro_subdimension_accuracy": 0.6618081535241945,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.6253687315634219,
+            "macro_subdimension_accuracy": 0.6254627938131774
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.7640449438202247,
+            "macro_subdimension_accuracy": 0.7654101199964117
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.6066666666666667,
+            "macro_subdimension_accuracy": 0.6066666666666666
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.6294117647058823
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.5411764705882353
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.6666666666666666
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.6645962732919255
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.7142857142857143
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.7761194029850746
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.8058252427184466
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.6666666666666666
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.5533333333333333
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.6
+          }
+        }
+      },
+      "mean_attempt": {
+        "n": 1484,
+        "micro_accuracy": 0.7580862533692723,
+        "macro_subdimension_accuracy": 0.7651206119232468,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.7379547689282202,
+            "macro_subdimension_accuracy": 0.7382802936944859
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.8501872659176031,
+            "macro_subdimension_accuracy": 0.8504727592626192
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.7155555555555555,
+            "macro_subdimension_accuracy": 0.7155555555555555
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.7588235294117647
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.7
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.7344632768361582
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.7598343685300206
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.8291316526610645
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.8582089552238806
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.8640776699029126
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.74
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.7022222222222222
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.7044444444444444
+          }
+        }
+      }
+    },
+    "qwen3-30b-a3b-instruct-2507": {
+      "recorded_responses": 4452,
+      "complete_three_round_questions": 1484,
+      "invalid_or_unparsed_responses": 3,
+      "strict": {
+        "n": 1484,
+        "micro_accuracy": 0.5943396226415094,
+        "macro_subdimension_accuracy": 0.600959149426333,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.5707964601769911,
+            "macro_subdimension_accuracy": 0.5714782670621675
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.6629213483146067,
+            "macro_subdimension_accuracy": 0.6656705864493312
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.5755555555555556,
+            "macro_subdimension_accuracy": 0.5755555555555555
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.5411764705882353
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.5117647058823529
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.5932203389830508
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.639751552795031
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.6218487394957983
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.6567164179104478
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.7184466019417476
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.62
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.5066666666666667
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.6
+          }
+        }
+      },
+      "mean_attempt": {
+        "n": 1484,
+        "micro_accuracy": 0.7203504043126685,
+        "macro_subdimension_accuracy": 0.7264007671156737,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.7035398230088495,
+            "macro_subdimension_accuracy": 0.7036638359593408
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.7930711610486891,
+            "macro_subdimension_accuracy": 0.7949692942916431
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.6881481481481482,
+            "macro_subdimension_accuracy": 0.6881481481481481
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.6803921568627451
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.6862745098039216
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.7212806026365348
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.7267080745341615
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.7507002801120448
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.7960199004975125
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.8381877022653721
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.7044444444444444
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.6533333333333333
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.7066666666666667
+          }
+        }
+      }
+    },
+    "gemini-2.5-flash-thinking": {
+      "recorded_responses": 4452,
+      "complete_three_round_questions": 1484,
+      "invalid_or_unparsed_responses": 331,
+      "strict": {
+        "n": 1484,
+        "micro_accuracy": 0.5653638814016172,
+        "macro_subdimension_accuracy": 0.5660641941350358,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.5634218289085545,
+            "macro_subdimension_accuracy": 0.5639027534374104
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.5646067415730337,
+            "macro_subdimension_accuracy": 0.5661214203113502
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.5688888888888889,
+            "macro_subdimension_accuracy": 0.5688888888888889
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.5588235294117647
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.47058823529411764
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.5988700564971752
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.6273291925465838
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.5882352941176471
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.5373134328358209
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.5728155339805825
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.5666666666666667
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.5466666666666666
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.5933333333333334
+          }
+        }
+      },
+      "mean_attempt": {
+        "n": 1484,
+        "micro_accuracy": 0.6949685534591195,
+        "macro_subdimension_accuracy": 0.6970715032358628,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.6917404129793511,
+            "macro_subdimension_accuracy": 0.6918476798727351
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.7181647940074906,
+            "macro_subdimension_accuracy": 0.7196266228077475
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.6814814814814816,
+            "macro_subdimension_accuracy": 0.6814814814814815
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.6941176470588235
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.6392156862745099
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.7156308851224106
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.7184265010351967
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.7366946778711485
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.6940298507462687
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.7281553398058253
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.6866666666666666
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.6555555555555556
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.7022222222222222
+          }
+        }
+      }
+    },
+    "qwen-qwq-32b": {
+      "recorded_responses": 4452,
+      "complete_three_round_questions": 1484,
+      "invalid_or_unparsed_responses": 27,
+      "strict": {
+        "n": 1484,
+        "micro_accuracy": 0.5471698113207547,
+        "macro_subdimension_accuracy": 0.5515214523943724,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.5412979351032449,
+            "macro_subdimension_accuracy": 0.5420044215180545
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.5926966292134831,
+            "macro_subdimension_accuracy": 0.5957322792905019
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.52,
+            "macro_subdimension_accuracy": 0.52
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.5470588235294118
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.45294117647058824
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.559322033898305
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.6086956521739131
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.5546218487394958
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.582089552238806
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.6504854368932039
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.5266666666666666
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.5133333333333333
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.52
+          }
+        }
+      },
+      "mean_attempt": {
+        "n": 1484,
+        "micro_accuracy": 0.7039532794249775,
+        "macro_subdimension_accuracy": 0.7095028035313745,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.6902654867256637,
+            "macro_subdimension_accuracy": 0.6907146744720979
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.7649812734082396,
+            "macro_subdimension_accuracy": 0.7677601495121548
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.6762962962962963,
+            "macro_subdimension_accuracy": 0.6762962962962963
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.7098039215686275
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.6470588235294118
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.6854990583804143
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.7204968944099379
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.7282913165266107
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.7562189054726368
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.8187702265372168
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.6822222222222222
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.6644444444444445
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.6822222222222222
+          }
+        }
+      }
+    },
+    "gpt-5-nano": {
+      "recorded_responses": 4452,
+      "complete_three_round_questions": 1484,
+      "invalid_or_unparsed_responses": 20,
+      "strict": {
+        "n": 1484,
+        "micro_accuracy": 0.5397574123989218,
+        "macro_subdimension_accuracy": 0.5438660308483203,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.5147492625368731,
+            "macro_subdimension_accuracy": 0.5148722569351986
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.5786516853932584,
+            "macro_subdimension_accuracy": 0.5797237602474695
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.5466666666666666,
+            "macro_subdimension_accuracy": 0.5466666666666667
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.5764705882352941
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.43529411764705883
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.519774011299435
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.5279503105590062
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.4789915966386555
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.6194029850746269
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.6407766990291263
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.6066666666666667
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.5133333333333333
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.52
+          }
+        }
+      },
+      "mean_attempt": {
+        "n": 1484,
+        "micro_accuracy": 0.6799191374663073,
+        "macro_subdimension_accuracy": 0.6848273007792611,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.6524090462143559,
+            "macro_subdimension_accuracy": 0.6527030021047967
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.7284644194756553,
+            "macro_subdimension_accuracy": 0.7295240368281787
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.6829629629629629,
+            "macro_subdimension_accuracy": 0.6829629629629629
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.703921568627451
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.5980392156862745
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.6421845574387948
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.6666666666666666
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.6638655462184874
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.7512437810945274
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.7734627831715211
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.7288888888888888
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.6488888888888888
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.6711111111111111
+          }
+        }
+      }
+    },
+    "deepseek-v3": {
+      "recorded_responses": 4452,
+      "complete_three_round_questions": 1484,
+      "invalid_or_unparsed_responses": 5,
+      "strict": {
+        "n": 1484,
+        "micro_accuracy": 0.5289757412398922,
+        "macro_subdimension_accuracy": 0.5306359966639083,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.5353982300884956,
+            "macro_subdimension_accuracy": 0.5347866338871584
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.5308988764044944,
+            "macro_subdimension_accuracy": 0.5379600325857049
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.5177777777777778,
+            "macro_subdimension_accuracy": 0.5177777777777778
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.4647058823529412
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.5470588235294118
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.5932203389830508
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.5341614906832298
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.6134453781512605
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.417910447761194
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.5825242718446602
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.5133333333333333
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.54
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.5
+          }
+        }
+      },
+      "mean_attempt": {
+        "n": 1484,
+        "micro_accuracy": 0.7028301886792453,
+        "macro_subdimension_accuracy": 0.7048551749648017,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.704031465093412,
+            "macro_subdimension_accuracy": 0.703510362631911
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.7097378277153558,
+            "macro_subdimension_accuracy": 0.7159478774845686
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.6955555555555556,
+            "macro_subdimension_accuracy": 0.6955555555555556
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.6352941176470588
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.7392156862745098
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.743879472693032
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.6956521739130435
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.7310924369747899
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.6368159203980099
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.7799352750809061
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.7022222222222222
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.7111111111111111
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.6733333333333333
+          }
+        }
+      }
+    },
+    "gemini-2.5-flash-nothinking": {
+      "recorded_responses": 4452,
+      "complete_three_round_questions": 1484,
+      "invalid_or_unparsed_responses": 631,
+      "strict": {
+        "n": 1484,
+        "micro_accuracy": 0.4939353099730458,
+        "macro_subdimension_accuracy": 0.49375977999698517,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.4941002949852507,
+            "macro_subdimension_accuracy": 0.4946710076808911
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.4887640449438202,
+            "macro_subdimension_accuracy": 0.48852681197098463
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.49777777777777776,
+            "macro_subdimension_accuracy": 0.4977777777777777
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.4764705882352941
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.43529411764705883
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.5141242937853108
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.5527950310559007
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.5294117647058824
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.4701492537313433
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.46601941747572817
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.5
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.4666666666666667
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.5266666666666666
+          }
+        }
+      },
+      "mean_attempt": {
+        "n": 1484,
+        "micro_accuracy": 0.6451033243486074,
+        "macro_subdimension_accuracy": 0.6466598398744314,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.647984267453294,
+            "macro_subdimension_accuracy": 0.6482878830726592
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.6666666666666667,
+            "macro_subdimension_accuracy": 0.6674452517808552
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.6237037037037038,
+            "macro_subdimension_accuracy": 0.6237037037037038
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.6490196078431373
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.6254901960784314
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.647834274952919
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.6708074534161491
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.7142857142857143
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.6343283582089553
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.6537216828478964
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.6266666666666667
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.6
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.6444444444444445
+          }
+        }
+      }
+    },
+    "gpt-o1-mini": {
+      "recorded_responses": 4452,
+      "complete_three_round_questions": 1484,
+      "invalid_or_unparsed_responses": 19,
+      "strict": {
+        "n": 1484,
+        "micro_accuracy": 0.3719676549865229,
+        "macro_subdimension_accuracy": 0.3711266773162377,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.36283185840707965,
+            "macro_subdimension_accuracy": 0.3627221854106418
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.34831460674157305,
+            "macro_subdimension_accuracy": 0.3490148993954922
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.40444444444444444,
+            "macro_subdimension_accuracy": 0.40444444444444444
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.3352941176470588
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.3
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.4180790960451977
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.39751552795031053
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.3445378151260504
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.34328358208955223
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.3592233009708738
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.44
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.42
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.35333333333333333
+          }
+        }
+      },
+      "mean_attempt": {
+        "n": 1484,
+        "micro_accuracy": 0.5615453728661276,
+        "macro_subdimension_accuracy": 0.5635941552774598,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.5570304818092429,
+            "macro_subdimension_accuracy": 0.5570643659084857
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.5720973782771536,
+            "macro_subdimension_accuracy": 0.5758946963802185
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.56,
+            "macro_subdimension_accuracy": 0.5599999999999999
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.5176470588235295
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.5196078431372548
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.5988700564971752
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.5921325051759834
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.5854341736694678
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.527363184079602
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.6148867313915857
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.5711111111111111
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.5866666666666667
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.5222222222222221
+          }
+        }
+      }
+    },
+    "GLM-4.1V-9B-Thinking": {
+      "recorded_responses": 4452,
+      "complete_three_round_questions": 1484,
+      "invalid_or_unparsed_responses": 498,
+      "strict": {
+        "n": 1484,
+        "micro_accuracy": 0.3247978436657682,
+        "macro_subdimension_accuracy": 0.32659337785326537,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.3274336283185841,
+            "macro_subdimension_accuracy": 0.3259723933788696
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.34269662921348315,
+            "macro_subdimension_accuracy": 0.34734806833905857
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.30666666666666664,
+            "macro_subdimension_accuracy": 0.3066666666666667
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.3352941176470588
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.2529411764705882
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.423728813559322
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.2919254658385093
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.35294117647058826
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.291044776119403
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.39805825242718446
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.2866666666666667
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.3466666666666667
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.2866666666666667
+          }
+        }
+      },
+      "mean_attempt": {
+        "n": 1484,
+        "micro_accuracy": 0.511455525606469,
+        "macro_subdimension_accuracy": 0.5109464736644269,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.5231071779744346,
+            "macro_subdimension_accuracy": 0.5224515721297116
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.5,
+            "macro_subdimension_accuracy": 0.5035898530788444
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.502962962962963,
+            "macro_subdimension_accuracy": 0.502962962962963
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.515686274509804
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.4862745098039216
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.5743879472693032
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.5134575569358178
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.5126050420168067
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.4577114427860696
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.540453074433657
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.5222222222222221
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.5111111111111112
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.4755555555555555
+          }
+        }
+      }
+    },
+    "qwen3-8b": {
+      "recorded_responses": 4452,
+      "complete_three_round_questions": 1484,
+      "invalid_or_unparsed_responses": 41,
+      "strict": {
+        "n": 1484,
+        "micro_accuracy": 0.2459568733153639,
+        "macro_subdimension_accuracy": 0.2454901540735459,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.24631268436578171,
+            "macro_subdimension_accuracy": 0.24573592885938458
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.23314606741573032,
+            "macro_subdimension_accuracy": 0.23509705287708474
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.25555555555555554,
+            "macro_subdimension_accuracy": 0.25555555555555554
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.22941176470588234
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.2
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.3050847457627119
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.2484472049689441
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.2857142857142857
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.1865671641791045
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.23300970873786409
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.25333333333333335
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.2733333333333333
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.24
+          }
+        }
+      },
+      "mean_attempt": {
+        "n": 1484,
+        "micro_accuracy": 0.44901168014375564,
+        "macro_subdimension_accuracy": 0.4495114136758236,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.4429695181907571,
+            "macro_subdimension_accuracy": 0.4421775219544954
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.4410112359550562,
+            "macro_subdimension_accuracy": 0.44435690520230703
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.46444444444444444,
+            "macro_subdimension_accuracy": 0.46444444444444444
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.43333333333333335
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.41960784313725485
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.4934086629001883
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.422360248447205
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.4789915966386555
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.3880597014925373
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.46601941747572817
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.48444444444444446
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.4755555555555555
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.43333333333333335
+          }
+        }
+      }
+    },
+    "deepseek-r1-distill-qwen-7b": {
+      "recorded_responses": 4447,
+      "complete_three_round_questions": 1479,
+      "invalid_or_unparsed_responses": 84,
+      "strict": {
+        "n": 1479,
+        "micro_accuracy": 0.24746450304259635,
+        "macro_subdimension_accuracy": 0.249255542431411,
+        "dimensions": {
+          "A": {
+            "n": 674,
+            "micro_accuracy": 0.24777448071216618,
+            "macro_subdimension_accuracy": 0.2475376604989535
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.2443820224719101,
+            "macro_subdimension_accuracy": 0.2513310497362255
+          },
+          "C": {
+            "n": 449,
+            "micro_accuracy": 0.24944320712694878,
+            "macro_subdimension_accuracy": 0.24947054436987323
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.2647058823529412
+          },
+          "A2": {
+            "n": 169,
+            "accuracy": 0.23076923076923078
+          },
+          "A3": {
+            "n": 176,
+            "accuracy": 0.2556818181818182
+          },
+          "A4": {
+            "n": 159,
+            "accuracy": 0.2389937106918239
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.19327731092436976
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.20149253731343283
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.3592233009708738
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.26666666666666666
+          },
+          "C2": {
+            "n": 149,
+            "accuracy": 0.26174496644295303
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.22
+          }
+        }
+      },
+      "mean_attempt": {
+        "n": 1484,
+        "micro_accuracy": 0.4883198562443845,
+        "macro_subdimension_accuracy": 0.4909180773975139,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.48574237954768923,
+            "macro_subdimension_accuracy": 0.4857355641839148
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.5046816479400749,
+            "macro_subdimension_accuracy": 0.5094869131539008
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.4792592592592592,
+            "macro_subdimension_accuracy": 0.4792592592592593
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.5156862745098039
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.4627450980392157
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.4821092278719397
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.48240165631469983
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.4257703081232493
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.4975124378109453
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.605177993527508
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.49333333333333335
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.4644444444444445
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.48
+          }
+        }
+      }
+    },
+    "qwen2.5-7b": {
+      "recorded_responses": 4452,
+      "complete_three_round_questions": 1484,
+      "invalid_or_unparsed_responses": 46,
+      "strict": {
+        "n": 1484,
+        "micro_accuracy": 0.12735849056603774,
+        "macro_subdimension_accuracy": 0.12877466752893127,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.1224188790560472,
+            "macro_subdimension_accuracy": 0.12192016084252419
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.1404494382022472,
+            "macro_subdimension_accuracy": 0.1422442328619609
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.12444444444444444,
+            "macro_subdimension_accuracy": 0.12444444444444445
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.14705882352941177
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.1
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.14124293785310735
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.09937888198757763
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.11764705882352941
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.13432835820895522
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.17475728155339806
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.11333333333333333
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.13333333333333333
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.12666666666666668
+          }
+        }
+      },
+      "mean_attempt": {
+        "n": 1484,
+        "micro_accuracy": 0.380503144654088,
+        "macro_subdimension_accuracy": 0.3817518553452663,
+        "dimensions": {
+          "A": {
+            "n": 678,
+            "micro_accuracy": 0.3726647000983284,
+            "macro_subdimension_accuracy": 0.3722621473054955
+          },
+          "B": {
+            "n": 356,
+            "micro_accuracy": 0.3885767790262172,
+            "macro_subdimension_accuracy": 0.3902307288176344
+          },
+          "C": {
+            "n": 450,
+            "micro_accuracy": 0.3859259259259259,
+            "macro_subdimension_accuracy": 0.38592592592592595
+          }
+        },
+        "subdimensions": {
+          "A1": {
+            "n": 170,
+            "accuracy": 0.3686274509803921
+          },
+          "A2": {
+            "n": 170,
+            "accuracy": 0.3549019607843137
+          },
+          "A3": {
+            "n": 177,
+            "accuracy": 0.4011299435028249
+          },
+          "A4": {
+            "n": 161,
+            "accuracy": 0.36438923395445133
+          },
+          "B1": {
+            "n": 119,
+            "accuracy": 0.3865546218487395
+          },
+          "B2": {
+            "n": 134,
+            "accuracy": 0.373134328358209
+          },
+          "B3": {
+            "n": 103,
+            "accuracy": 0.41100323624595464
+          },
+          "C1": {
+            "n": 150,
+            "accuracy": 0.3711111111111111
+          },
+          "C2": {
+            "n": 150,
+            "accuracy": 0.43333333333333335
+          },
+          "C3": {
+            "n": 150,
+            "accuracy": 0.35333333333333333
+          }
+        }
+      }
+    }
+  }
+}

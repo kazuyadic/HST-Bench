@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use these archival research materials, please cite this repository. Publication metadata will be updated after publication."
+title: "HST-Bench: Research Dataset and Offline Evaluation"
+repository-code: "https://github.com/kazuyadic/HST-Bench"
+url: "https://github.com/kazuyadic/HST-Bench"
+type: dataset
+authors:
+  - family-names: Zhao
+    given-names: Shan
+    affiliation: Hefei University of Technology
+  - family-names: Yang
+    given-names: Zhao
+    affiliation: Hefei University of Technology
+  - family-names: Nan
+    given-names: Xingyu
+    affiliation: Hefei University of Technology
+  - family-names: Chen
+    given-names: Shizhao
+    affiliation: Defense Innovation Institute, Academy of Military Science
+  - family-names: Wang
+    given-names: Chengyu
+    affiliation: Hunan University
+  - family-names: Yan
+    given-names: Tianwei
+    affiliation: Chongqing Jiaotong University
+    email: augusyan@cqjtu.edu.cn
+date-released: 2026-10-26
+version: "0.1.0"

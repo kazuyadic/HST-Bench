@@ -1,0 +1,54 @@
+{
+  "name": "HST-Bench",
+  "questions": 1484,
+  "rounds": 3,
+  "dimensions": {
+    "A": "Representational Perception",
+    "B": "Representational Transformation",
+    "C": "Spatial Reasoning"
+  },
+  "subdimensions": {
+    "A1": {
+      "name_zh": "空间表征重建",
+      "dimension": "A"
+    },
+    "A2": {
+      "name_zh": "矢量关系",
+      "dimension": "A"
+    },
+    "A3": {
+      "name_zh": "状态分析",
+      "dimension": "A"
+    },
+    "A4": {
+      "name_zh": "相对关系",
+      "dimension": "A"
+    },
+    "B1": {
+      "name_zh": "参考系变换",
+      "dimension": "B"
+    },
+    "B2": {
+      "name_zh": "投影变换",
+      "dimension": "B"
+    },
+    "B3": {
+      "name_zh": "空间形态变换",
+      "dimension": "B"
+    },
+    "C1": {
+      "name_zh": "轨迹分析",
+      "dimension": "C"
+    },
+    "C2": {
+      "name_zh": "量度推理",
+      "dimension": "C"
+    },
+    "C3": {
+      "name_zh": "过程解构",
+      "dimension": "C"
+    }
+  },
+  "languages": "Question text as stored in the archived Chinese evaluation files; no English dataset is claimed.",
+  "license": "No blanket third-party question license is granted; see LICENSE.md."
+}

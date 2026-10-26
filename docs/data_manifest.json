@@ -1,0 +1,216 @@
+{
+  "created": "2026-10-26",
+  "source_files": [
+    {
+      "name": "a_filtered1.json",
+      "bytes": 289861061,
+      "sha256": "73f8fcd1b050c421b379eb541f73bf085093a1738fcddfdf17d5fe0ce3e7a770"
+    },
+    {
+      "name": "a_filtered2.json",
+      "bytes": 291292983,
+      "sha256": "a4c9e324189c275e31c8ed7753b4a8cc70047455b456f251bfe96dc4c8cc2b2f"
+    },
+    {
+      "name": "a_filtered3.json",
+      "bytes": 313928743,
+      "sha256": "67d53a7140b0479c7c180af42737ee8775f344b6205875c0d3e3f612714aa57a"
+    }
+  ],
+  "rounds": {
+    "1": {
+      "questions": 1484,
+      "unique_ids": 1484,
+      "subdimensions": {
+        "A3": 177,
+        "C1": 150,
+        "A1": 170,
+        "A4": 161,
+        "C3": 150,
+        "B3": 103,
+        "C2": 150,
+        "A2": 170,
+        "B1": 119,
+        "B2": 134
+      },
+      "subjects": {
+        "物理": 512,
+        "空中领航": 146,
+        "数学": 413,
+        "航海测绘": 237,
+        "天文学": 102,
+        "智力问答": 74
+      },
+      "answer_types": {
+        "符号": 310,
+        "数值": 987,
+        "无运算": 187
+      },
+      "model_response_counts": {
+        "deepseek-r1": 1484,
+        "qwen-qwq-32b": 1484,
+        "deepseek-r1-distill-qwen-7b": 1484,
+        "qwen2.5-7b": 1484,
+        "GLM-4.1V-9B-Thinking": 1484,
+        "qwen2.5-72b": 1484,
+        "qwen-max": 1484,
+        "qwen-turbo": 1484,
+        "deepseek-v3": 1484,
+        "gpt-o1-mini": 1484,
+        "deepseek-v3-0324": 1484,
+        "llama3_1_8b": 1484,
+        "gemini-2.5-flash-thinking": 1484,
+        "gemini-2.5-flash-nothinking": 1484,
+        "gpt-5-mini": 1484,
+        "gpt-5-2025-08-07": 1484,
+        "gpt-5-nano": 1484,
+        "qwen3-30b-a3b-thinking-2507": 1484,
+        "qwen3-max": 1484,
+        "qwen3-30b-a3b-instruct-2507": 1484,
+        "qwen3-235b-a22b": 1059,
+        "qwen3-235b-a22b-thinking-2507": 1483,
+        "qwen3-8b": 1484
+      }
+    },
+    "2": {
+      "questions": 1484,
+      "unique_ids": 1484,
+      "subdimensions": {
+        "A3": 177,
+        "C1": 150,
+        "A1": 170,
+        "A4": 161,
+        "C3": 150,
+        "B3": 103,
+        "C2": 150,
+        "A2": 170,
+        "B1": 119,
+        "B2": 134
+      },
+      "subjects": {
+        "物理": 512,
+        "空中领航": 146,
+        "数学": 413,
+        "航海测绘": 237,
+        "天文学": 102,
+        "智力问答": 74
+      },
+      "answer_types": {
+        "符号": 310,
+        "数值": 987,
+        "无运算": 187
+      },
+      "model_response_counts": {
+        "deepseek-r1": 1484,
+        "qwen2.5-7b": 1484,
+        "GLM-4.1V-9B-Thinking": 1484,
+        "qwen-qwq-32b": 1484,
+        "deepseek-r1-distill-qwen-7b": 1484,
+        "qwen2.5-72b": 1484,
+        "qwen-max": 1484,
+        "qwen-turbo": 1484,
+        "deepseek-v3": 1484,
+        "gpt-o1-mini": 1484,
+        "deepseek-v3-0324": 1484,
+        "llama3_1_8b": 1484,
+        "gemini-2.5-flash-thinking": 1484,
+        "gemini-2.5-flash-nothinking": 1484,
+        "qwen3-30b-a3b-thinking-2507": 1484,
+        "qwen3-max": 1484,
+        "qwen3-30b-a3b-instruct-2507": 1484,
+        "gpt-5-mini": 1484,
+        "gpt-5-2025-08-07": 1484,
+        "gpt-5-nano": 1484,
+        "qwen3-8b": 1484,
+        "qwen3-235b-a22b-thinking-2507": 1392,
+        "qwen3-235b-a22b": 695
+      }
+    },
+    "3": {
+      "questions": 1484,
+      "unique_ids": 1484,
+      "subdimensions": {
+        "A3": 177,
+        "C1": 150,
+        "A1": 170,
+        "A4": 161,
+        "C3": 150,
+        "B3": 103,
+        "C2": 150,
+        "A2": 170,
+        "B1": 119,
+        "B2": 134
+      },
+      "subjects": {
+        "物理": 512,
+        "空中领航": 146,
+        "数学": 413,
+        "航海测绘": 237,
+        "天文学": 102,
+        "智力问答": 74
+      },
+      "answer_types": {
+        "符号": 310,
+        "数值": 987,
+        "无运算": 187
+      },
+      "model_response_counts": {
+        "deepseek-r1": 1484,
+        "qwen2.5-7b": 1484,
+        "GLM-4.1V-9B-Thinking": 1484,
+        "qwen-qwq-32b": 1484,
+        "deepseek-r1-distill-qwen-7b": 1479,
+        "qwen2.5-72b": 1484,
+        "qwen-max": 1484,
+        "qwen-turbo": 1484,
+        "deepseek-v3": 1484,
+        "gpt-o1-mini": 1484,
+        "deepseek-v3-0324": 1484,
+        "llama3_1_8b": 1484,
+        "gemini-2.5-flash-thinking": 1484,
+        "qwen3-235b-a22b": 1471,
+        "gemini-2.5-flash-nothinking": 1484,
+        "gpt-5-2025-08-07": 1484,
+        "gpt-5-mini": 1484,
+        "gpt-5-nano": 1484,
+        "qwen3-30b-a3b-thinking-2507": 1484,
+        "qwen3-8b": 1484,
+        "qwen3-30b-a3b-instruct-2507": 1484,
+        "qwen3-max": 1484,
+        "qwen3-235b-a22b-thinking-2507": 1396,
+        "qwen3-235b-a22b-instruct-2507": 1484
+      }
+    }
+  },
+  "models": [
+    "GLM-4.1V-9B-Thinking",
+    "deepseek-r1",
+    "deepseek-r1-distill-qwen-7b",
+    "deepseek-v3",
+    "deepseek-v3-0324",
+    "gemini-2.5-flash-nothinking",
+    "gemini-2.5-flash-thinking",
+    "gpt-5-2025-08-07",
+    "gpt-5-mini",
+    "gpt-5-nano",
+    "gpt-o1-mini",
+    "llama3_1_8b",
+    "qwen-max",
+    "qwen-qwq-32b",
+    "qwen-turbo",
+    "qwen2.5-72b",
+    "qwen2.5-7b",
+    "qwen3-235b-a22b",
+    "qwen3-235b-a22b-instruct-2507",
+    "qwen3-235b-a22b-thinking-2507",
+    "qwen3-30b-a3b-instruct-2507",
+    "qwen3-30b-a3b-thinking-2507",
+    "qwen3-8b",
+    "qwen3-max"
+  ],
+  "warnings": {
+    "stored_correctness_mismatches": 0,
+    "question_text_changes_vs_round1": 0,
+    "option_or_correct_answer_changes_vs_round1": 0
+  }
+}

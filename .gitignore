@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+api_key.py
+llm_pool.py
+*_token*
+*.log
+.DS_Store
