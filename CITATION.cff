@@ -5,24 +5,27 @@ repository-code: "https://github.com/kazuyadic/HST-Bench"
 url: "https://github.com/kazuyadic/HST-Bench"
 type: dataset
 authors:
-  - family-names: Zhao
-    given-names: Shan
-    affiliation: Hefei University of Technology
+  - family-names: Wei
+    given-names: Zhenhua
+    affiliation: "Hefei University of Technology; Rocket Force University of Engineering"
   - family-names: Yang
     given-names: Zhao
-    affiliation: Hefei University of Technology
+    affiliation: "Hefei University of Technology"
+  - family-names: Zhang
+    given-names: Nini
+    affiliation: "Anhui Agricultural University"
+  - family-names: He
+    given-names: Chengxiang
+    affiliation: "Hefei University of Technology"
   - family-names: Nan
     given-names: Xingyu
-    affiliation: Hefei University of Technology
-  - family-names: Chen
-    given-names: Shizhao
-    affiliation: Defense Innovation Institute, Academy of Military Science
-  - family-names: Wang
-    given-names: Chengyu
-    affiliation: Hunan University
+    affiliation: "Hefei University of Technology"
   - family-names: Yan
     given-names: Tianwei
-    affiliation: Chongqing Jiaotong University
-    email: augusyan@cqjtu.edu.cn
+    affiliation: "Chongqing Jiaotong University"
+    email: augusyan@hotmail.com
+  - family-names: Zhao
+    given-names: Shan
+    affiliation: "Hefei University of Technology"
 date-released: 2026-10-26
 version: "0.2.1"

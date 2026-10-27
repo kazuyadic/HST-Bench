@@ -67,6 +67,6 @@ The authors confirm that six graduate students completed the human-baseline expe
 
 ## Citation and contact
 
-Bibliographic metadata are in `CITATION.cff`. No DOI or accepted publication is claimed. Corresponding author: Tianwei Yan, augusyan@cqjtu.edu.cn.
+Bibliographic metadata are in `CITATION.cff`. No DOI or accepted publication is claimed. Corresponding author: Tianwei Yan, augusyan@hotmail.com.
 
 中文说明：本仓库提供论文相关的 1,484 道题、三轮选项排列、归档模型预测及离线评估代码。论文表格作为正式报告结果，数值保持不变；`results/` 仅为归档输入的脚本输出。作者已确认六位研究生完成了人工实验，本仓库补充了六人实验方法、匿名编号和逐题记录模板。题目来自互联网收集，原始材料权利归相应权利人。
